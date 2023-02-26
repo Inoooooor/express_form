@@ -1,0 +1,16 @@
+*, *::after, *::before {
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #eee;
+  display: grid;
+  place-items: center;
+}
+
+form {
+  height: clamp(200px, 40vh, 50vh);
+  width: clamp(200px, 40vh, 50vh);
+  background-color: aquamarine;
+}
